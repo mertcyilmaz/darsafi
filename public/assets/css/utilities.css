@@ -1,0 +1,10 @@
+/* Utilities: single-purpose classes */
+.mt-lg { margin-top: var(--space-lg) !important; }
+.mb-lg { margin-bottom: var(--space-lg) !important; }
+.text-center { text-align: center !important; }
+.text-dark { color: var(--color-text) !important; }
+.text-light { color: var(--color-light) !important; }
+.bg-primary { background: var(--color-primary) !important; }
+.bg-accent { background: var(--color-accent) !important; }
+.rounded-xl { border-radius: var(--radius-xl) !important; }
+.hidden { display: none !important; }

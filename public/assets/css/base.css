@@ -1,0 +1,21 @@
+/* Base: resets, variables, typography */
+:root {
+  --color-bg: #181818;
+  --color-primary: #1ab8c5;
+  --color-accent: #00caac;
+  --color-text: #181818;
+  --color-light: #eee;
+  --radius-xl: 30px;
+  --font-main: Helvetica, Arial, sans-serif;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  color: var(--color-light);
+  min-height: 100vh;
+}
