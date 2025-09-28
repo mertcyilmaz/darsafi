@@ -2,10 +2,8 @@
   --color-bg: #181818;
   --color-primary: #1ab8c5;
   --color-accent: #00caac;
-  --color-text: #fafafa;
+  --color-text: #181818;
   --color-light: #eee;
-  --toggle-light: #fafafa;
-  --toggle-dark: #ffac00;
   --radius-xl: 30px;
   --font-main: Helvetica, Arial, sans-serif;
   --space-xs: 4px;
@@ -17,13 +15,6 @@
 html, body {
   font-family: var(--font-main);
   background: var(--color-bg);
-  color: var(--color-text);
+  color: var(--color-light);
   min-height: 100vh;
-}
-
-/* Light mode overrides (triggered by body class) */
-body.light-mode {
-  --color-bg: #fafafa;
-  --color-text: #181818;
-  --color-light: #111; /* darker text for readability */
 }

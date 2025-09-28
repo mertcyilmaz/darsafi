@@ -1,0 +1,11 @@
+<template>
+  <footer class="mt-lg text-center text-light">
+    2025 &copy; Dar Safi Bahari Safi
+  </footer>
+</template>
+
+<script>
+export default {
+  name: 'Footer'
+}
+</script>

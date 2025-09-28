@@ -16,7 +16,7 @@
 .nav-btn:hover .tooltip { display: block; }
 .box {
   background: var(--color-primary);
-  color: #181818;
+  color: var(--color-text);
   border-radius: var(--radius-xl);
   padding: var(--space-lg);
   display: flex;

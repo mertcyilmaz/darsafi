@@ -4,8 +4,6 @@
   --color-accent: #00caac;
   --color-text: #fafafa;
   --color-light: #eee;
-  --toggle-light: #fafafa;
-  --toggle-dark: #ffac00;
   --radius-xl: 30px;
   --font-main: Helvetica, Arial, sans-serif;
   --space-xs: 4px;
@@ -21,9 +19,8 @@ html, body {
   min-height: 100vh;
 }
 
-/* Light mode overrides (triggered by body class) */
 body.light-mode {
   --color-bg: #fafafa;
   --color-text: #181818;
-  --color-light: #111; /* darker text for readability */
+  --color-light: #111;
 }

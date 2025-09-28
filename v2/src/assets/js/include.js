@@ -1,4 +1,4 @@
-// Dynamically load header and footer into the page
+// Dynamically load header, footer, and toggle content into the page
 function includeHTML(selector, url, callback) {
   fetch(url)
     .then(response => response.text())
@@ -8,7 +8,6 @@ function includeHTML(selector, url, callback) {
 
       mountPoint.innerHTML = data;
 
-      // Re-run any scripts that were injected via innerHTML so they actually execute.
       mountPoint.querySelectorAll('script').forEach(originalScript => {
         const script = document.createElement('script');
         if (originalScript.src) {
@@ -32,7 +31,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const toggleDiv = document.createElement("div");
   toggleDiv.id = "site-toggle";
-  document.body.prepend(toggleDiv); // place at very top of <body>
+  document.body.prepend(toggleDiv);
   includeHTML("#site-toggle", "assets/toggle.html");
-
 });
